@@ -1,5 +1,12 @@
 // Modules are in strict mode by default
 
+/**
+ * A function that checks if a string is a valid anagram of another string.
+ * 
+ * @param {String} str1 String containing only lowercase letters a-z or blank string 
+ * @param {String} str2 String containing only lowercase letters a-z or blank string
+ * @returns true if the second string is a valid anagram of the first string, otherwise it returns false
+ */
 function validAnagram (str1, str2) {
     if (str1.length !== str2.length) {
         return false;
