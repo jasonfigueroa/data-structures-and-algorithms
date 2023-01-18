@@ -2,8 +2,8 @@
  * Function returning first pair of numbers whose sum is equal to zero.
  * Example of input: [-4, -3, -2, -1, 0, 1, 2, 5]
  * 
- * @param {Number[]} nums Sorted array of numbers
- * @returns Array containing two values whose sum is equal to zero or an empty array
+ * @param {Number[]} nums Sorted array of numbers.
+ * @returns Array containing two values whose sum is equal to zero or an empty array.
  */
 
 function sumZero(nums) {
